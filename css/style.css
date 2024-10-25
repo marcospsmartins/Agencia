@@ -1,0 +1,56 @@
+/* FONTS DO GOOGLE */
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Quicksand:wght@300..700&display=swap');
+
+
+
+/* RESET GERAL DOS ESTILOS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*  ------- CONFIGURAÇÃO GERAL DO HEADER ------- */
+
+/* Configuração geral do header */
+header{
+    background-color: rgba(164, 246, 219, 0.34);
+    font-family: sans-serif;
+}
+
+/* Configuração do menu de navegação */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Configuração dos links dentro da UL */
+.nav-itens{
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-itens li a{
+    font-size: 18px;
+    color: black;
+}
+
+.nav-itens li:hover{
+    transition: .3s ease;
+    transform: scale(1.2);
+}
+
+.nav-itens li a:hover{
+    color: rgb(1, 53, 86)
+}
+
+
+
+
+
+
+
+/*  ------- CONFIGURAÇÃO GERAL DO BODY ------- */
